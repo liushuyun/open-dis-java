@@ -17,26 +17,31 @@ public class BurstDescriptor extends Object implements Serializable {
 
     /**
      * What munition was used in the burst
+     * 爆炸时用的是什么弹药啊
      */
     protected EntityType munition = new EntityType();
 
     /**
      * type of warhead
+     * 战斗部类型
      */
     protected int warhead;
 
     /**
      * type of fuse used
+     * 使用的保险丝类型
      */
     protected int fuse;
 
     /**
      * how many of the munition were fired
+     * 发射了多少弹药
      */
     protected int quantity;
 
     /**
      * rate at which the munition was fired
+     * 弹药发射的速度
      */
     protected int rate;
 

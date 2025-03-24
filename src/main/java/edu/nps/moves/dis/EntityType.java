@@ -5,6 +5,8 @@ import java.io.*;
 /**
  * Section 5.2.16. Identifies the type of entity, including kind of entity,
  * domain (surface, subsurface, air, etc) country, category, etc.
+ * 标识实体的类型，包括实体的种类，
+ * *领域(地面，地下，空气等)国家，类别等。
  *
  * Copyright (c) 2008-2016, MOVES Institute, Naval Postgraduate School. All
  * rights reserved. This work is licensed under the BSD open source license,

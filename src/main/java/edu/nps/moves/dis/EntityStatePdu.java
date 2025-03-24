@@ -5,6 +5,7 @@ import java.io.*;
 
 /**
  * Section 5.3.3.1. Represents the postion and state of one entity in the world.
+ * 代表一个实体在世界上的位置和状态。
  * COMPLETE
  *
  * Copyright (c) 2008-2016, MOVES Institute, Naval Postgraduate School. All
@@ -66,6 +67,7 @@ public class EntityStatePdu extends EntityInformationFamilyPdu implements Serial
     /**
      * characters that can be used for debugging, or to draw unique strings on
      * the side of entities in the world
+     * 可用于调试的字符，或在实体的一侧绘制唯一字符串
      */
     protected Marking marking = new Marking();
 

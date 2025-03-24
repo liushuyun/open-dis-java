@@ -27,21 +27,25 @@ public class FirePdu extends WarfareFamilyPdu implements Serializable {
 
     /**
      * location of the firing event
+     * 触发开火事件的位置
      */
     protected Vector3Double locationInWorldCoordinates = new Vector3Double();
 
     /**
      * Describes munitions used in the firing event
+     * 描述开火事件中使用的弹药
      */
     protected BurstDescriptor burstDescriptor = new BurstDescriptor();
 
     /**
      * Velocity of the ammunition
+     * 弹药速度
      */
     protected Vector3Float velocity = new Vector3Float();
 
     /**
      * range to the target. Note the word range is a SQL reserved word.
+     * 瞄准目标。注意，单词range是一个SQL保留词。
      */
     protected float rangeToTarget;
 

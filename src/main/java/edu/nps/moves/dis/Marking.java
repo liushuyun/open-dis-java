@@ -5,6 +5,7 @@ import java.io.*;
 /**
  * Section 5.2.15. Specifies the character set used in the first byte, followed
  * by 11 characters of text data.
+ * 指定在第一个字节中使用的字符集，后跟11个字符的文本数据。
  *
  * Copyright (c) 2008-2016, MOVES Institute, Naval Postgraduate School. All
  * rights reserved. This work is licensed under the BSD open source license,
